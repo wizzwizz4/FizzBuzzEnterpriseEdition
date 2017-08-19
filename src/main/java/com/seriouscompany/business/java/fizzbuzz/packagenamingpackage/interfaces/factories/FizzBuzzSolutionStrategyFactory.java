@@ -2,7 +2,7 @@ package com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interface
 
 import com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interfaces.strategies.FizzBuzzSolutionStrategy;
 
-public interface FizzBuzzSolutionStrategyFactory {
+public interface FizzBuzzSolutionStrategyFactory extends Factory {
 
 	public FizzBuzzSolutionStrategy createFizzBuzzSolutionStrategy();
 
