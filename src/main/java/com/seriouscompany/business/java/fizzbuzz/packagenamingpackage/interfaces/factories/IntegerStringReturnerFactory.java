@@ -2,7 +2,7 @@ package com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interface
 
 import com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interfaces.stringreturners.IntegerStringReturner;
 
-public interface IntegerStringReturnerFactory {
+public interface IntegerStringReturnerFactory extends Factory {
 
 	public IntegerStringReturner createIntegerStringReturner();
 
