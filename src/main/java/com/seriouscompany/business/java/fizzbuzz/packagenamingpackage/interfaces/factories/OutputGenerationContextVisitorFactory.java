@@ -2,7 +2,7 @@ package com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interface
 
 import com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interfaces.visitors.OutputGenerationContextVisitor;
 
-public interface OutputGenerationContextVisitorFactory {
+public interface OutputGenerationContextVisitorFactory extends Factory {
 
 	public OutputGenerationContextVisitor createVisitor();
 
