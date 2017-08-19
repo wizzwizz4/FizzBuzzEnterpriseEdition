@@ -2,7 +2,7 @@ package com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interface
 
 import com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.interfaces.printers.IntegerPrinter;
 
-public interface IntegerPrinterFactory {
+public interface IntegerPrinterFactory extends Factory {
 
 	public IntegerPrinter createPrinter();
 
